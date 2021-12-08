@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/feeds"
+        android:title="@string/feed"
+        android:visible="false"
+        android:icon="@drawable/user"
+        />
+    <item
+        android:id="@+id/feed"
+        android:title="@string/feed"
+        android:icon="@drawable/feed"
+        />
+    <item
+        android:id="@+id/contacts"
+        android:title="@string/contacts"
+        android:icon="@drawable/phone_book"/>
+    <item
+        android:id="@+id/profile"
+        android:title="@string/profile"
+        android:icon="@drawable/user"/>
+</menu>
